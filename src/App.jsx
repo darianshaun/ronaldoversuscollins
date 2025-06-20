@@ -53,13 +53,13 @@ const App = () => {
       <span className="text-lg mb-4 text-center"> Powered By Collins</span>
       <div className="flex space-x-4 mb-4 justify-center items-center size-40">
       <button onClick={() => playGame('rock')}>
-        <img src={rockImage} alt="Rock" style={{ width: '50px', height: '50px' }} />
+        <img src={rockImage} alt="Rock" style={{ width: '50px', height: '50px' }} /><span>Rock</span>
       </button>
       <button onClick={() => playGame('paper')}>
-        <img src={paperImage} alt="Paper" style={{ width: '50px', height: '50px' }} />
+        <img src={paperImage} alt="Paper" style={{ width: '50px', height: '50px' }} /><span>Paper</span>
       </button>
       <button onClick={() => playGame('scissors')}>
-        <img src={scissorsImage} alt="Scissors" style={{ width: '50px', height: '50px' }} />
+        <img src={scissorsImage} alt="Scissors" style={{ width: '50px', height: '50px' }} /><span>Scissors</span>
       </button>
        </div>
       {/* Optionally display the results in the UI instead of just an alert */}
